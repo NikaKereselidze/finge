@@ -1,5 +1,7 @@
 using Fidge.Models;
 using Fidge.Services;
+using MongoDB.Bson;
+using MongoDB.Driver;
 
 var builder = WebApplication.CreateBuilder(args);
 
